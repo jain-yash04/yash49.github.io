@@ -4,54 +4,33 @@ body{
 
 header{
 	font-size: 38px;
-	padding: 10px 55px 17px;
+	padding: 10px 49px 20px;
 }
 
-ul {
-  list-style-type: none;
+.navbar {
+  width: 100%;
+  background-color: #9932CC;
   overflow: hidden;
-  background-color: #FBFBFB;
-  border: 1px solid #F7F9FB;
+  margin: 0 ;
+  padding: 0px 4px ;
 }
 
-li{
-	float: left;
-}
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 11px;
+.navbar a {
+  float: left;
+  padding: 12px 47px;
+  color: white;
   text-decoration: none;
   font-size: 19px;
+  text-align: center;
 }
 
-
-
-/*
-li{
-	float: left;
-}
-
-a{
-	display: block;
-	padding: 0px 40px;
-	text-decoration: none;
-}
-*/
-li a:hover:not(.active) {
-  background-color: #F0F0F0;
-}
-
-li a.active {
-  color: black;
-  background-color: #F0F0F0;
+.navbar a:hover {
+  background-color:#9400D3;
 }
 
 #h3{
 	padding: 15px 55px 0px;
 }
-/*This customization belongs only to homepage */
 
 #leftbox{
 	text-align: left;
@@ -75,14 +54,16 @@ li a.active {
 }
 #li{
   font-size: 19px;
-  padding:0px;
+  padding:11px;
   float: none;
 }
 #a{
-  display: block;
   color: black;
   text-align: left;
   text-decoration: none;
+}
+#a:hover{
+  color: #9400D3;
 }
 
 
