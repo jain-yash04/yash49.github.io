@@ -1,0 +1,35 @@
+#h1{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+ .style_nav{
+ 	color: #DFDEDE;
+ 	font-size: 19px;
+} 
+
+ li:hover .style_nav{
+ 	color: #FFFFFF;
+ 	text-decoration: none;
+}
+.navbar{
+	overflow: hidden;
+}
+.navbar-nav > li{
+  padding-left:40px;
+  padding-right:20px;
+}
+
+.content{
+	 max-width: 700px;
+	 margin-left: auto;
+	 margin-right: auto;
+	}
+
+.listblah{
+	font-size: 17px;
+	color: black;
+	padding-bottom: 12px;
+}
+
+
